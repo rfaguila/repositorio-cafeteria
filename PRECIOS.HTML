@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cafeteria - Precios de los cafes</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Allerta&family=Montserrat&family=Pacifico:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Header-->
+    <header id="header" class="header background-general">
+      <div class="contenedor">
+        <figure class="logotipo">
+          <!-- logotipo -->
+          <!-- <img src="img/logo.png" width="60" alt="logo cafe" /> -->
+          <span>CafeTime</span>
+        </figure>
+  
+        <nav class="menu">
+          <!-- menu -->
+          <!-- ul es una lista desordenada -->
+          <!-- ol es una lista ordenada -->
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#cafes">Cafes</a></li>
+            <li><a href="precios.html">Precios</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+  <!-- /Header-->
+  
+  <!-- Contenido -->
+    <main>
+
+      <section class="tabla">
+        <div class="contenedor">
+          <div class="titulo-precio">
+            <span>Precios CafeTime</span>
+            <img src="img/coffetimeprecios1.png" alt="" width="100">
+
+          <Table>
+            <tbody>
+              <tr>
+                <td>Capuccino <br> <i>Sabor Intenso y exquisito</i></td>
+                <td> <div class="precio">$1000</div></td>
+              </tr>
+              <tr>
+                <td>Mocaccino <br> <i> Delicioso café con sabor chocolate</i></<td></td>
+                <td><div class="precio">$1200</div></td>
+              </tr>
+              <tr>
+                <td>Vainilla Latte <br> <i> Cremoso café con sabor a Vainilla</i></td></td></td>
+                <td><div class="precio">$1100</div></td>
+              </tr>
+              <tr>
+                <td>Frappe <br> <i>El mas freco y refrescante café para el calor de la tarde.</i></td>
+                <td><div class="precio">$1000</div></td>
+              </tr>
+              <tr>
+                <td>Macciatto <br> <i>Un rico café cortado para la media tarde y cargar pilas</i>br></td>
+                <td><div class="precio">$1000</div></td>
+              </tr>
+              <tr>
+                <td>Americano <br> <i>Cafe grande e ntenso</i><</td>
+                <td><div class="precio">$900</div></td>
+              </tr>
+
+              
+              
+            </tbody>
+          </Table>
+           
+          </>
+          <!-- <table>
+            <thead>
+              <tr>
+                <th>Productos</th>
+                <th>Precios</th>
+                <th>Descripción</th>
+              </tr> 
+            </thead>
+    
+            <tbody>
+              <tr>
+                <td>Capuchino</td>
+                <td>$1000</td>
+                <td>Sabor Intenso y exquisito</td>
+              </tr>
+    
+              <tr>
+                <td>Mocachino</td>
+                <td>$750</td>
+                <td>Delicioso cafe con sabor chocolate</td>
+              </tr>
+    
+              <tr>
+                <td>Vainilla Late</td>
+                <td>$850</td>
+                <td>Cremoso y delicioso cafe con sabor a Vainilla</td>
+              </tr>
+            </tbody>
+          </table> -->
+        </div>
+       </section>
+    </main>
+
+  <!-- /Contenido -->
+
+  <!-- Footer -->
+  <footer class="footer" >
+    <div class="contenedor">
+      
+      <div class="contacto">
+        <img src="img/imagenfooter.png" alt="imagen footer" width="300"/>
+  
+        <a href="tel:+569954587415"> <strong>Teléfono</strong> <span>9545874</span></a>
+  
+        <a href="mailto:contacto@cafetime.cl"> <strong>E-mail</strong> <span>contacto@cafetime.cl</span> </a>
+      </div>
+
+      <form class="formulario">
+
+        <div class="col1">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" required name="nombre" />
+  
+          <label for="email">E-mail</label>
+          <input type="email" id="email" required name="email" />
+  
+          <div class="generos">
+            <label for="mujer">
+              <input type="radio" id="mujer" name="genero" value="mujer" required> Mujer
+            </label>
+  
+            <label for="hombre">
+              <input type="radio" id="hombre" name="genero" value="hombre" required> Hombre
+            </label>
+          </div>
+  
+          <div class="intereses">
+
+            <label for="cotizacion">
+              <input type="checkbox" id="cotizacion" name="intereses[]" value="cotizacion"> Cotización
+            </label>
+  
+            <label for="reclamos">
+              <input type="checkbox" id="reclamos" name="intereses[]" value="reclamos"> Reclamos
+            </label>
+  
+            <label for="observaciones">
+              <input type="checkbox" id="observaciones" name="intereses[]" value="observaciones"> Observaciones
+            </label>
+  
+            <label for="otros">
+              <input type="checkbox" id="otros" name="intereses[]" value="otros"> Otros
+            </label>
+          </div>
+        
+        </div>
+  
+        <div class="col2">
+          <label for="comentarios">Comentarios</label>
+          <textarea name="" id="comentarios" cols="30" rows="7"></textarea>
+          <input class="button" type="submit" value="Enviar">
+        </div>
+  
+      </form>
+  
+    </div>
+  
+  </footer>
+
+  </body>
+  
+  </html>
+    
+  <!-- /Footer -->
+<!-- </body>
+</html>
+<table>
+  <thead>
+    <tr>
+      <th>Productos</th>
+      <th>Precios</th>
+      <th>Descripción</th>
+    </tr> 
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>Capuchino</td>
+      <td>$1000</td>
+      <td>Sabor Intenso y exquisito</td>
+    </tr>
+
+    <tr>
+      <td>Mocachino</td>
+      <td>$750</td>
+      <td>Delicioso cafe con sabor chocolate</td>
+    </tr>
+
+    <tr>
+      <td>Vainilla Late</td>
+      <td>$850</td>
+      <td>Cremoso y delicioso cafe con sabor a Vainilla</td>
+    </tr>
+  </tbody>
+</table> -->
